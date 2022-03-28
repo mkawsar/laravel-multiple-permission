@@ -1,0 +1,19 @@
+{
+    "name": "kawsarahmed/auth",
+    "description": "Authentication rest api package",
+    "type": "metapackage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kawsarahmed\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kawsar",
+            "email": "kawsar.diu888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

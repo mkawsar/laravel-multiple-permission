@@ -1,0 +1,19 @@
+{
+    "name": "laravel9/dashboard",
+    "description": "Reporting show",
+    "type": "metapackage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laravel9\\Dashboard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mkawsar",
+            "email": "kawsar.diu888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

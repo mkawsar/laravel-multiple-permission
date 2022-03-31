@@ -27,7 +27,8 @@
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
             "Laravel9\\Auth\\": "packages/Laravel9/Auth/src",
-            "Laravel9\\Survey\\": "packages/Laravel9/Survey/src"
+            "Laravel9\\Survey\\": "packages/Laravel9/Survey/src",
+            "Laravel9\\Dashboard\\": "packages/Laravel9/Dashboard/src"
         }
     },
     "autoload-dev": {

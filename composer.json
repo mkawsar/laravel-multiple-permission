@@ -10,6 +10,7 @@
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
+        "spatie/laravel-sluggable": "^3.4",
         "tomfordrumm/jwt-auth": "dev-develop"
     },
     "require-dev": {
@@ -25,7 +26,8 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Laravel9\\Auth\\": "packages/Laravel9/Auth/src"
+            "Laravel9\\Auth\\": "packages/Laravel9/Auth/src",
+            "Laravel9\\Survey\\": "packages/Laravel9/Survey/src"
         }
     },
     "autoload-dev": {

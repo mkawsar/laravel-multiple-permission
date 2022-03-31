@@ -1,16 +1,16 @@
 {
-    "name": "kawsarahmed/auth",
-    "description": "Authentication rest api package",
+    "name": "kawsarahmed/survey",
+    "description": "Survey project",
     "type": "metapackage",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Laravel9\\Auth\\": "src/"
+            "Laravel9\\Survey\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Kawsar",
+            "name": "mkawsar",
             "email": "kawsar.diu888@gmail.com"
         }
     ],

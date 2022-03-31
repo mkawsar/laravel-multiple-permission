@@ -184,6 +184,7 @@ return [
          */
 
         Laravel9\Auth\Providers\AuthAPIServiceProvider::class,
+        Laravel9\Survey\Providers\SurveyAppServiceProvider::class
 
     ],
 

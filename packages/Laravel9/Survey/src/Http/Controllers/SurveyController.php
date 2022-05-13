@@ -18,8 +18,10 @@ class SurveyController extends Controller
     public function index(Request $request)
     {
         $user = $request->user();
-
-        return SurveyResource::collection(Survey::query()->where('user_id', $user->id)->orderBy('created_at', 'DESC')->paginate(10));
+        return Survey::query()
+            ->where('user_id', $user->id)
+            ->orderBy('created_at', 'DESC')
+            ->paginate(10);
     }
 
     public function store(StoreSurveyRequest $request)
